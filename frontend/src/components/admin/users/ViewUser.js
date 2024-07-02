@@ -61,6 +61,7 @@ function ViewUser() {
                             <div className="card mx-5">
                                 <div className="card-header d-flex justify-content-between items-center">
                                     <h3>Users</h3>
+                                    <Link className="btn btn-outline-primary" to="/admin/add-user">Add User</Link>
                                 </div>
                                 <div className="card-body">
                                     <table className="table table-bordered">
